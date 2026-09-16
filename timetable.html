@@ -4,20 +4,44 @@
     <head> 
         <style>
             body {
-                background-color:aliceblue;
+                background-color:black;
+            }
+            table {
+                width: 100%;
+                background-color: aliceblue;
+                border-collapse: collapse;
             }
             td, th {
                 border: 1px solid black;
                 padding: 10px;
                 text-align: center;
             }
+            td {
+                padding: 18px;
+            }
+            a:link {
+            color: lightblue;
+            background-color: transparent;
+            text-decoration: none;
+            }
+            a:visited {
+            color: rgb(255, 90, 255);
+            background-color: transparent;
+            text-decoration: none;
+            }
+            a:active {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+
         </style>
         <title>Timetable</title>
     </head>
 
     <body>
         <!-- This is the tabe -->
-        <table style="width:100%; border-collapse: collapse;">
+        <table>
             <tr>
                 <th>Time</th>
                 <th>Monday</th>
@@ -29,7 +53,7 @@
             <tr>
                 <th rowspan="4">7 AM</th>
                 <td></td>
-                <td rowspan="6" style="background-color: red;">New Testament Survey</td>
+                <td id="A" rowspan="6" style="background-color: red;">New Testament Survey</td>
                 <td></td>
                 <td rowspan="6" style="background-color: red;">New Testament Survey</td>
                 <td></td>
@@ -77,7 +101,7 @@
             <tr>
                 <td rowspan="4">9 AM</td>
                 <td></td>
-                <td rowspan="4" style="background-color: yellow;">Chapel</td>
+                <td id="B" rowspan="4" style="background-color: yellow;">Chapel</td>
                 <td></td>
                 <td></td>
             </tr>
@@ -116,7 +140,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td rowspan="6" style="background-color: greenyellow;">Discrete Structures I</td>
+                <td id="C" rowspan="6" style="background-color: greenyellow;">Discrete Structures I</td>
                 <td></td>
                 <td rowspan="6" style="background-color: greenyellow;">Discrete Structures I</td>
                 <td></td>
@@ -206,7 +230,7 @@
             <tr>
                 <td rowspan="4">2 PM</td>
                 <td></td>
-                <td rowspan="6" style="background-color: cyan;">Mobile Application Development</td>
+                <td id="D" rowspan="6" style="background-color: cyan;">Mobile Application Development</td>
                 <td></td>
                 <td rowspan="6" style="background-color: cyan;">Mobile Application Development</td>
                 <td></td>
@@ -244,7 +268,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td rowspan="6" style="background-color: violet;">Web Application Development</td>
+                <td id="E" rowspan="6" style="background-color: violet;">Web Application Development</td>
                 <td></td>
                 <td rowspan="6" style="background-color: violet;">Web Application Development</td>
                 <td></td>
