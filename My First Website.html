@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
     <head>
         <title>Personal Website</title>
         <link rel="icon" type="image/x-icon" href="images/CROSS.ico">
         <style>
             body {
-                background-color: #C8CADE;
+                background-color: #ccd8f1;
             }
             header {
                 background-color:#EDEDF0;
@@ -23,13 +23,10 @@
                 justify-content: space-between;
             }
         </style>
-        
-
     </head>
 
     <body>
-
-        <header>
+        <header style="background-image: url('images/gradient.png'); background-repeat: no-repeat; background-size: cover;">
             <table> <!-- This is the table for the header -->
                 <tr>
                     <td><img src="images/CHEESUS.png" alt="Grilled Cheesus!" style="width:100px"> <!-- This is the logo for the blog --></td>
@@ -42,7 +39,7 @@
             <div class="content">
                 <div>
                     <h1 style="font-size: 45px;">Welcome!</h1>
-                    <p>This is my first ever website! My name is Calvin and I am a student at California Baptist University!</p>
+                    <p>Welcome to my first ever website! My name is Calvin and I am a student at California Baptist University!</p>
 
                     <h2 style="font-size: 35px;">The units I am taking this semester are:</h2>
                     <ul>
@@ -59,6 +56,17 @@
                     <img src="images/CBU.png" alt="CBU Logo" style="width:300px"> <!-- This is the logo for CBU -->
                 </div>
             </div>
+
+            <p>Feel free to let me know if you visited my website!</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="bday">Birthday:</label><br>
+                <input type="date" id="bday" name="bday"><br>
+                <input type="submit" value="Submit">
+            </form>
         </main>
 
     </body>
